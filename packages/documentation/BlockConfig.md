@@ -19,6 +19,9 @@ Le BlockConfig permet de spécifier au CMS les Blocks à exposer au niveau du Pa
       "templates": [
         {
           "assets": {
+            "sharedJs": [
+              {}
+            ],
             "js": [
               {}
             ],
@@ -171,6 +174,21 @@ Inlined template content
 
 
 
+*Type*: object
+
+### `.configurations[].templates[].assets.sharedJs`
+
+
+
+
+
+*Type*: array
+
+### `.configurations[].templates[].assets.sharedJs[]`
+
+**Empty Object**
+
+This accepts anything, as long as it's valid JSON.
 
 *Type*: object
 
